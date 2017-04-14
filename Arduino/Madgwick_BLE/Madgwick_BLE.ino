@@ -2,11 +2,10 @@
 #include <MadgwickAHRS.h>
 #include <CurieBLE.h>
 
-#define ledPin 13
 BLEPeripheral blePeripheral; // create peripheral instance
-BLEService ledService("19B10000-E8F2-537E-4F6C-D104768A1214"); // create service
+BLEService SquatService("19B10000-E8F2-537E-4F6C-D104768A1214"); // create service
 // create switch characteristic and allow remote device to read and write
-BLECharCharacteristic switchChar("19B10001-E8F2-537E-4F6C-D104768A1214", BLERead | BLEWrite);
+BLECharCharacteristic angleChar("19B10001-E8F2-537E-4F6C-D104768A1214", BLERead | BLEWrite);
 
 Madgwick filter;
 unsigned long microsPerReading, microsPrevious;
@@ -30,9 +29,10 @@ void loop() {
 
   // check if it's time to read data and update the filter
   microsNow = micros();
+  
   if (microsNow - microsPrevious >= microsPerReading) {
 
-// Read raw data from CurieIMU
+    // Read raw data from CurieIMU
     CurieIMU.readMotionSensor(aix, aiy, aiz, gix, giy, giz);
 
     // convert from raw data to gravity and degrees/second units
@@ -43,35 +43,27 @@ void loop() {
     gy = convertRawGyro(giy);
     gz = convertRawGyro(giz);
 
-    // update the filter, which computes orientation
     filter.updateIMU(gx, gy, gz, ax, ay, az);
-
-// get roll, pitch and heading from raw IMU data
     roll = filter.getRoll();
     pitch = filter.getPitch();
     heading = filter.getYaw();
 
-// set Value
-  unsigned char buff = (unsigned char) pitch;
-  switchChar.setValue(buff);
-//  ledService.setValue(switchChar); 
-    
-// print the heading, pitch and roll
-    Serial.print("Orientation: ");
-    Serial.print(heading);
-    Serial.print(" ");
-    Serial.print(pitch);
-    Serial.print(" ");
-    Serial.println(roll);
+
+    int pitch_int = (int) pitch;
+    char pitch_char = 0;
+    if (pitch_int > 0 ) pitch_char = (char) pitch_int;
+    else {
+      pitch_int = -pitch_int;
+      pitch_char = (char) pitch_int;
+    }
+    angleChar.setValue(pitch_char);
 
     // increment previous time, so we keep proper pace
     microsPrevious = microsPrevious + microsPerReading;  // ???
   }
-
-
-  // poll peripheral
-  blePeripheral.poll();
   
+  blePeripheral.poll();
+
 }
 
 float convertRawAcceleration(int aRaw) {
@@ -93,24 +85,25 @@ float convertRawGyro(int gRaw) {
 }
 
 void initBLE(void) {
-   // set the local name peripheral advertises
+  // set the local name peripheral advertises
   blePeripheral.setLocalName("AngleLevel");
+  
   // set the UUID for the service this peripheral advertises
-  blePeripheral.setAdvertisedServiceUuid(ledService.uuid());
+  blePeripheral.setAdvertisedServiceUuid(SquatService.uuid());
 
-// add service and characteristic
-  blePeripheral.addAttribute(ledService);
-  blePeripheral.addAttribute(switchChar);
+  // add service and characteristic
+  blePeripheral.addAttribute(SquatService);
+  blePeripheral.addAttribute(angleChar);
 
-// assign event handlers for connected, disconnected to peripheral
+  // assign event handlers for connected, disconnected to peripheral
   blePeripheral.setEventHandler(BLEConnected, blePeripheralConnectHandler);
   blePeripheral.setEventHandler(BLEDisconnected, blePeripheralDisconnectHandler);
 
-// assign event handlers for characteristic
-  switchChar.setEventHandler(BLEWritten, switchCharacteristicWritten);
+  // assign event handlers for characteristic
+  angleChar.setEventHandler(BLEWritten, angleCharacteristicWritten);
 
-// set an initial value for the characteristic
-  switchChar.setValue(0);
+  // set an initial value for the characteristic
+  angleChar.setValue(0);
 
   // advertise the service
   blePeripheral.begin();
@@ -148,16 +141,9 @@ void blePeripheralDisconnectHandler(BLECentral& central) {
   Serial.println(central.address());
 }
 
-void switchCharacteristicWritten(BLECentral& central, BLECharacteristic& characteristic) {
+void angleCharacteristicWritten(BLECentral& central, BLECharacteristic& characteristic) {
   // central wrote new value to characteristic, update LED
   Serial.print("Characteristic event, written: ");
-
-  if (switchChar.value()) {
-    Serial.println("LED on");
-    digitalWrite(ledPin, HIGH);
-  } else {
-    Serial.println("LED off");
-    digitalWrite(ledPin, LOW);
-  }
+  Serial.println(angleChar.value());
 }
 
