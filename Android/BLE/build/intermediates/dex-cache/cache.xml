@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/ideo/.android/build-cache/bdcac62583a31f020dab84eaedca080efd894121/output/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d4bccb885c8a89d066ecb6c4addb553a99a79a2">
+        <dex dex="/home/ideo/Документы/android/ble/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_6b5848fb5582ddabbbacaf0a92a8d945c907fdb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="/home/ideo/Документы/android/ble/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_bdb9fa92de3536d1ff5815554b7755fc2be35c41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ideo/.android/build-cache/bdcac62583a31f020dab84eaedca080efd894121/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb0ac3f3ee2d71854501cc28e52cc84a20209b41">
+        <dex dex="/home/ideo/Документы/android/ble/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_efc954010e7aa6c4e600924495b06a354c72e231.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ideo/.android/build-cache/b943ea92fd95559712164c9d7be3572d44902f26/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/home/ideo/Документы/android/ble/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_428c7ee4e7b6a0f3009d362cf4382863e19471d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ideo/.android/build-cache/b943ea92fd95559712164c9d7be3572d44902f26/output/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/home/ideo/Документы/android/ble/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_88b595d1fd308aaa38c9a66cbd785baa5ac15167.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ideo/extern/android_sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/home/ideo/Документы/android/ble/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/support-annotations-23.0.0_b240e07597fb97632d81bea24e9bb40f5b2d7547.jar" />
+    </item>
+
+</items>
