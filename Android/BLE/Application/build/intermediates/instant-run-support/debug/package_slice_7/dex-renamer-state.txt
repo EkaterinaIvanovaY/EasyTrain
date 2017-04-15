@@ -1,0 +1,4 @@
+#Sat Apr 15 13:42:10 MSK 2017
+base.0=/home/ideo/Документы/android/Android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/home/ideo/Документы/android/Android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex
