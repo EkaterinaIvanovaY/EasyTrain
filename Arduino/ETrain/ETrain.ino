@@ -44,17 +44,14 @@ void loop() {
     char pitch_char = 0;
     if (pitch_int > 0 ) pitch_char = (char) pitch_int;
     else {
-      pitch_int = -pitch_int;
-      pitch_char = (char) pitch_int;
+      pitch_char = (char) -pitch_int;
     }
     angleChar.setValue(pitch_char);
-
-    // increment previous time, so we keep proper pace
-    microsPrevious = microsPrevious + microsPerReading;  // ???
+    
+    microsPrevious = microsPrevious + microsPerReading;  
   }
   
   blePeripheral.poll();
-
 }
 
 float convertRawAcceleration(int aRaw) {
@@ -94,10 +91,10 @@ void initBLE(void) {
 void initIMU(void) {
    // start the IMU and filter
   CurieIMU.begin();
-  // set Gyro update rate to 200 Hz
-  CurieIMU.setGyroRate(200);     
-  CurieIMU.setAccelerometerRate(200);
-  filter.begin(25);
+  // set Gyro update rate to 100 Hz
+  CurieIMU.setGyroRate(100);     
+  CurieIMU.setAccelerometerRate(100);
+  filter.begin(100);
 
   // Set the accelerometer range to 2G
   CurieIMU.setAccelerometerRange(2);
@@ -105,7 +102,7 @@ void initIMU(void) {
   CurieIMU.setGyroRange(250);
 
   // initialize variables to pace updates to correct rate
-  microsPerReading = 1000000 / 25;
+  microsPerReading = 1000000 / 100;
   microsPrevious = micros();
 }
 
