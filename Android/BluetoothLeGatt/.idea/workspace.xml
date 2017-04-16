@@ -41,7 +41,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="button_control.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="button_control.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -57,8 +57,8 @@
       <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="51" column="29" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="51" />
+            <state relative-caret-position="555">
+              <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
               <folding>
                 <element signature="e#0#14821#0" expanded="true" />
                 <element signature="class#2902:4834" expanded="false" />
@@ -86,15 +86,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="250" column="26" selection-start-line="250" selection-start-column="26" selection-end-line="250" selection-end-column="26" />
+            <state relative-caret-position="373">
+              <caret line="258" column="66" selection-start-line="258" selection-start-column="66" selection-end-line="258" selection-end-column="66" />
               <folding>
-                <element signature="e#0#14551#0" expanded="true" />
+                <element signature="e#0#14917#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="class#2648:3329" expanded="false" />
+                <element signature="class#2704:3385" expanded="false" />
                 <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
                 <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
                 <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
@@ -106,6 +119,8 @@
                 <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
                 <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
                 <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
+                <element signature="method#onClickRead#0;class#DeviceControlActivity#0" expanded="false" />
+                <element signature="method#onClickStart#0;class#DeviceControlActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1590,8 +1605,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" />
         <option value="$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml" />
+        <option value="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" />
       </list>
     </option>
   </component>
@@ -1626,6 +1642,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1642,46 +1662,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Application" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothLeGatt" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothLeGatt" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluetoothlegatt" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1700,10 +1680,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2125,7 +2101,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2176,15 +2152,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java</url>
-          <line>248</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2276,9 +2244,9 @@
         <state relative-caret-position="2160">
           <caret line="317" column="36" selection-start-line="317" selection-start-column="36" selection-end-line="317" selection-end-column="36" />
           <folding>
-            <element signature="e#0#14551#0" expanded="true" />
+            <element signature="e#0#14917#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="class#2648:3329" expanded="false" />
+            <element signature="class#2704:3385" expanded="false" />
             <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
@@ -2290,6 +2258,8 @@
             <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onClickRead#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onClickStart#0;class#DeviceControlActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2306,7 +2276,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2317,7 +2286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2328,7 +2296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2339,7 +2306,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2403,9 +2369,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14551#0" expanded="true" />
+            <element signature="e#0#14917#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="class#2648:3329" expanded="false" />
+            <element signature="class#2704:3385" expanded="false" />
             <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
@@ -2417,6 +2383,8 @@
             <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onClickRead#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onClickStart#0;class#DeviceControlActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2441,7 +2409,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2452,7 +2419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2463,7 +2429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2474,7 +2439,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2538,9 +2502,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14551#0" expanded="true" />
+            <element signature="e#0#14917#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="class#2648:3329" expanded="false" />
+            <element signature="class#2704:3385" expanded="false" />
             <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
@@ -2552,6 +2516,8 @@
             <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onClickRead#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onClickStart#0;class#DeviceControlActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2579,7 +2545,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2590,7 +2555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2601,7 +2565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2612,18 +2575,13 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="android-dummy:///home/ideo/Документы/android/Android/BluetoothLeGatt/Application/Translations Editor">
-      <provider selected="true" editor-type-id="string-resource-editor">
-        <state />
-      </provider>
-    </entry>
+    <entry file="android-dummy:///home/ideo/Документы/android/Android/BluetoothLeGatt/Application/Translations Editor" />
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -2639,10 +2597,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="370">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -2650,33 +2619,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="250" column="26" selection-start-line="250" selection-start-column="26" selection-end-line="250" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#14551#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="class#2648:3329" expanded="false" />
-            <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onPause#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#updateConnectionState#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="51" />
+        <state relative-caret-position="555">
+          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
           <folding>
             <element signature="e#0#14821#0" expanded="true" />
             <element signature="class#2902:4834" expanded="false" />
@@ -2703,15 +2649,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="258" column="66" selection-start-line="258" selection-start-column="66" selection-end-line="258" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#14917#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="class#2704:3385" expanded="false" />
+            <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onPause#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#updateConnectionState#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onClickRead#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onClickStart#0;class#DeviceControlActivity#0" expanded="false" />
+          </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
   </component>

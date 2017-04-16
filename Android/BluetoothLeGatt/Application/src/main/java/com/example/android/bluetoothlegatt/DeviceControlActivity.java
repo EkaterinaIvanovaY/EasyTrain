@@ -17,6 +17,7 @@
 package com.example.android.bluetoothlegatt;
 
 import android.app.Activity;
+import android.app.Service;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
 import android.content.BroadcastReceiver;
@@ -27,6 +28,7 @@ import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.os.Vibrator;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -145,7 +147,7 @@ public class DeviceControlActivity extends Activity {
                     }
                     return false;
                 }
-    };
+            };
 
     private void clearUI() {
         //mGattServicesList.setAdapter((SimpleExpandableListAdapter) null);
@@ -214,7 +216,7 @@ public class DeviceControlActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch(item.getItemId()) {
+        switch (item.getItemId()) {
             case R.id.menu_connect:
                 mBluetoothLeService.connect(mDeviceAddress);
                 return true;
@@ -240,18 +242,23 @@ public class DeviceControlActivity extends Activity {
     private void displayData(String data) {
         if (data != null) {
             TextView textView = (TextView) findViewById(R.id.isright);
+            Vibrator vibr = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
             StringBuffer data_buf = new StringBuffer(data);
-            data_buf.delete(0,2);
-            data_buf.delete(2,data_buf.length());
-            int data_int = Integer.parseInt(data_buf.toString(),16);
+            data_buf.delete(0, 2);
+            data_buf.delete(2, data_buf.length());
+            int data_int = Integer.parseInt(data_buf.toString(), 16);
             String data_str = String.valueOf(data_int);
+
             mDataField.setText(data_str);
 
             if (data_int > 45) {
                 textView.setText("Good pace!");
+                vibr.cancel();
+            } else {
+                vibr.vibrate(10000);        // vibration for 10sec
+                textView.setText("Wrong angle!");
             }
-            else textView.setText("Wrong angle!");
         }
     }
 
@@ -302,12 +309,12 @@ public class DeviceControlActivity extends Activity {
                 this,
                 gattServiceData,
                 android.R.layout.simple_expandable_list_item_2,
-                new String[] {LIST_NAME, LIST_UUID},
-                new int[] { android.R.id.text1, android.R.id.text2 },
+                new String[]{LIST_NAME, LIST_UUID},
+                new int[]{android.R.id.text1, android.R.id.text2},
                 gattCharacteristicData,
                 android.R.layout.simple_expandable_list_item_2,
-                new String[] {LIST_NAME, LIST_UUID},
-                new int[] { android.R.id.text1, android.R.id.text2 }
+                new String[]{LIST_NAME, LIST_UUID},
+                new int[]{android.R.id.text1, android.R.id.text2}
         );
         mGattServicesList.setAdapter(gattServiceAdapter);
     }
@@ -321,15 +328,22 @@ public class DeviceControlActivity extends Activity {
         return intentFilter;
     }
 
-    public void onClickWrite(View v){
-        if(mBluetoothLeService != null) {
+    public void onClickWrite(View v) {
+        if (mBluetoothLeService != null) {
             mBluetoothLeService.writeCustomCharacteristic(0xAA);
         }
     }
 
-    public void onClickRead(View v){
-        if(mBluetoothLeService != null) {
+    public void onClickRead(View v) {
+        if (mBluetoothLeService != null) {
             mBluetoothLeService.readCustomCharacteristic();
+        }
+    }
+
+
+    public void onClickStart(View v) {
+        if (mBluetoothLeService != null) {
+
         }
     }
 }
