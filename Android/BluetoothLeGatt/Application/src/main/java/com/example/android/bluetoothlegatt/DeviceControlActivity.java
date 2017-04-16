@@ -276,7 +276,7 @@ public class DeviceControlActivity extends Activity {
 
             if (state==STATE_START && (mBluetoothLeService != null) ) {
 
-                sleep(300);
+                sleep(100);
                 mBluetoothLeService.readCustomCharacteristic();
             }
         }
@@ -301,12 +301,7 @@ public class DeviceControlActivity extends Activity {
     public void onClickStart(View v) {
         if (mBluetoothLeService != null) {
             state = STATE_START;
-            if (state==STATE_START && (mBluetoothLeService != null) ) {
-
-                sleep(100);
-                mBluetoothLeService.readCustomCharacteristic();
-
-            }
+            mBluetoothLeService.readCustomCharacteristic();
         }
     }
 
