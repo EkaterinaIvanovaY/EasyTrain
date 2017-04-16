@@ -36,6 +36,7 @@ ADDED from /home/ideo/Документы/android/BluetoothLeGatt/Application/src
 MERGED from [com.android.support:support-v13:23.0.0] /home/ideo/.android/build-cache/bdcac62583a31f020dab84eaedca080efd894121/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.0] /home/ideo/.android/build-cache/b943ea92fd95559712164c9d7be3572d44902f26/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:cardview-v7:23.0.0] /home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /home/ideo/Документы/android/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:18-50
 	android:icon
@@ -77,6 +78,7 @@ INJECTED from /home/ideo/Документы/android/BluetoothLeGatt/Application/
 MERGED from [com.android.support:support-v13:23.0.0] /home/ideo/.android/build-cache/bdcac62583a31f020dab84eaedca080efd894121/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:23.0.0] /home/ideo/.android/build-cache/b943ea92fd95559712164c9d7be3572d44902f26/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:cardview-v7:23.0.0] /home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
 		INJECTED from /home/ideo/Документы/android/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
 		INJECTED from /home/ideo/Документы/android/BluetoothLeGatt/Application/src/main/AndroidManifest.xml

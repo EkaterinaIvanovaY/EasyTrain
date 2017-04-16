@@ -2,7 +2,11 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <devices>
+          <device id="Nexus 4" />
+        </devices>
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
@@ -41,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="button_control.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="button_control.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="105">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -57,11 +61,10 @@
       <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+            <state relative-caret-position="360">
+              <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
               <folding>
-                <element signature="e#0#14821#0" expanded="true" />
-                <element signature="class#2902:4834" expanded="false" />
+                <element signature="e#0#14820#0" expanded="true" />
                 <element signature="method#broadcastUpdate#0;class#BluetoothLeService#0" expanded="false" />
                 <element signature="method#broadcastUpdate#1;class#BluetoothLeService#0" expanded="false" />
                 <element signature="class#LocalBinder#0;class#BluetoothLeService#0" expanded="false" />
@@ -86,28 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="258" column="66" selection-start-line="258" selection-start-column="66" selection-end-line="258" selection-end-column="66" />
+            <state relative-caret-position="2475">
+              <caret line="269" column="30" selection-start-line="269" selection-start-column="30" selection-end-line="269" selection-end-column="30" />
               <folding>
-                <element signature="e#0#14917#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="class#2704:3385" expanded="false" />
+                <element signature="e#0#12460#0" expanded="true" />
+                <element signature="docComment;class#DeviceControlActivity#0" expanded="false" />
+                <element signature="method#onServiceDisconnected#0;class#3037:3718" expanded="false" />
+                <element signature="e#4171#5261#0" expanded="true" />
+                <element signature="e#4902#4979#0" expanded="false" />
+                <element signature="e#5260#5261#0" expanded="true" />
+                <element signature="e#6318#6382#0" expanded="false" />
                 <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
                 <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
                 <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
@@ -115,12 +109,11 @@
                 <element signature="method#onDestroy#0;class#DeviceControlActivity#0" expanded="false" />
                 <element signature="method#onCreateOptionsMenu#0;class#DeviceControlActivity#0" expanded="false" />
                 <element signature="method#onOptionsItemSelected#0;class#DeviceControlActivity#0" expanded="false" />
-                <element signature="method#updateConnectionState#0;class#DeviceControlActivity#0" expanded="false" />
-                <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
+                <element signature="e#10389#10539#0" expanded="true" />
+                <element signature="e#10538#10539#0" expanded="true" />
                 <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
-                <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
-                <element signature="method#onClickRead#0;class#DeviceControlActivity#0" expanded="false" />
-                <element signature="method#onClickStart#0;class#DeviceControlActivity#0" expanded="false" />
+                <element signature="e#12423#12424#0" expanded="true" />
+                <element signature="e#12457#12458#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,6 +176,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="validateSigningDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support.constraint:constraint-layout:1.0.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportConstraintConstraintLayout102Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -850,6 +848,11 @@
                 <option name="name" value="validateSigningDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support.constraint:constraint-layout:1.0.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Application" />
+                <option name="name" value="prepareComAndroidSupportConstraintConstraintLayout102Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Application" />
                 <option name="name" value="assembleReleaseUnitTest" />
               </ExternalTaskPojo>
@@ -1496,7 +1499,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4376548185715" />
+        <entry key="$PROJECT_DIR$" value="4376626602210" />
         <entry key="C:\Users\Travis\AndroidStudioProjects\BluetoothLeGatt" value="4326559870273" />
       </map>
     </option>
@@ -1604,10 +1607,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml" />
       </list>
     </option>
   </component>
@@ -1642,8 +1645,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView">
@@ -1662,20 +1665,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Application" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothLeGatt" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2101,7 +2090,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="7" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2109,21 +2098,21 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20398407" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20398407" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33225808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52903223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2152,11 +2141,79 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14820#0" expanded="true" />
+            <element signature="method#broadcastUpdate#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="method#broadcastUpdate#1;class#BluetoothLeService#0" expanded="false" />
+            <element signature="class#LocalBinder#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="method#onUnbind#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="docComment;method#initialize#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="method#initialize#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="docComment;method#connect#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="method#connect#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="docComment;method#disconnect#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="method#disconnect#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="docComment;method#close#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="method#close#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="docComment;method#readCharacteristic#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="method#readCharacteristic#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="docComment;method#setCharacteristicNotification#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="method#setCharacteristicNotification#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="docComment;method#getSupportedGattServices#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="method#getSupportedGattServices#0;class#BluetoothLeService#0" expanded="false" />
+            <element signature="method#writeCustomCharacteristic#0;class#BluetoothLeService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12460#0" expanded="true" />
+            <element signature="docComment;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#3037:3718" expanded="false" />
+            <element signature="e#4171#5261#0" expanded="true" />
+            <element signature="e#4902#4979#0" expanded="false" />
+            <element signature="e#5260#5261#0" expanded="true" />
+            <element signature="e#6318#6382#0" expanded="false" />
+            <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onPause#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="e#10389#10539#0" expanded="true" />
+            <element signature="e#10538#10539#0" expanded="true" />
+            <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="e#12423#12424#0" expanded="true" />
+            <element signature="e#12457#12458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2173,8 +2230,7 @@
         <state relative-caret-position="765">
           <caret line="51" column="29" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="51" />
           <folding>
-            <element signature="e#0#14821#0" expanded="true" />
-            <element signature="class#2902:4834" expanded="false" />
+            <element signature="e#0#14820#0" expanded="true" />
             <element signature="method#broadcastUpdate#0;class#BluetoothLeService#0" expanded="false" />
             <element signature="method#broadcastUpdate#1;class#BluetoothLeService#0" expanded="false" />
             <element signature="class#LocalBinder#0;class#BluetoothLeService#0" expanded="false" />
@@ -2214,8 +2270,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14821#0" expanded="true" />
-            <element signature="class#2902:4834" expanded="false" />
+            <element signature="e#0#14820#0" expanded="true" />
             <element signature="method#broadcastUpdate#0;class#BluetoothLeService#0" expanded="false" />
             <element signature="method#broadcastUpdate#1;class#BluetoothLeService#0" expanded="false" />
             <element signature="class#LocalBinder#0;class#BluetoothLeService#0" expanded="false" />
@@ -2244,9 +2299,13 @@
         <state relative-caret-position="2160">
           <caret line="317" column="36" selection-start-line="317" selection-start-column="36" selection-end-line="317" selection-end-column="36" />
           <folding>
-            <element signature="e#0#14917#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="class#2704:3385" expanded="false" />
+            <element signature="e#0#12460#0" expanded="true" />
+            <element signature="docComment;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#3037:3718" expanded="false" />
+            <element signature="e#4171#5261#0" expanded="true" />
+            <element signature="e#4902#4979#0" expanded="false" />
+            <element signature="e#5260#5261#0" expanded="true" />
+            <element signature="e#6318#6382#0" expanded="false" />
             <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
@@ -2254,12 +2313,11 @@
             <element signature="method#onDestroy#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onOptionsItemSelected#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#updateConnectionState#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="e#10389#10539#0" expanded="true" />
+            <element signature="e#10538#10539#0" expanded="true" />
             <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickRead#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickStart#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="e#12423#12424#0" expanded="true" />
+            <element signature="e#12457#12458#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2316,7 +2374,9 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#1257#1287#0" expanded="false" />
+          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2339,8 +2399,7 @@
         <state relative-caret-position="4260">
           <caret line="319" column="0" selection-start-line="319" selection-start-column="0" selection-end-line="354" selection-end-column="5" />
           <folding>
-            <element signature="e#0#14821#0" expanded="true" />
-            <element signature="class#2902:4834" expanded="false" />
+            <element signature="e#0#14820#0" expanded="true" />
             <element signature="method#broadcastUpdate#0;class#BluetoothLeService#0" expanded="false" />
             <element signature="method#broadcastUpdate#1;class#BluetoothLeService#0" expanded="false" />
             <element signature="class#LocalBinder#0;class#BluetoothLeService#0" expanded="false" />
@@ -2369,9 +2428,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14917#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="class#2704:3385" expanded="false" />
+            <element signature="e#0#12460#0" expanded="true" />
+            <element signature="docComment;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#3037:3718" expanded="false" />
+            <element signature="e#4171#5261#0" expanded="true" />
+            <element signature="e#4902#4979#0" expanded="false" />
+            <element signature="e#5260#5261#0" expanded="true" />
+            <element signature="e#6318#6382#0" expanded="false" />
             <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
@@ -2379,12 +2442,11 @@
             <element signature="method#onDestroy#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onOptionsItemSelected#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#updateConnectionState#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="e#10389#10539#0" expanded="true" />
+            <element signature="e#10538#10539#0" expanded="true" />
             <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickRead#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickStart#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="e#12423#12424#0" expanded="true" />
+            <element signature="e#12457#12458#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2449,7 +2511,9 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#1257#1287#0" expanded="false" />
+          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2472,8 +2536,7 @@
         <state relative-caret-position="4785">
           <caret line="319" column="0" selection-start-line="319" selection-start-column="0" selection-end-line="354" selection-end-column="5" />
           <folding>
-            <element signature="e#0#14821#0" expanded="true" />
-            <element signature="class#2902:4834" expanded="false" />
+            <element signature="e#0#14820#0" expanded="true" />
             <element signature="method#broadcastUpdate#0;class#BluetoothLeService#0" expanded="false" />
             <element signature="method#broadcastUpdate#1;class#BluetoothLeService#0" expanded="false" />
             <element signature="class#LocalBinder#0;class#BluetoothLeService#0" expanded="false" />
@@ -2502,9 +2565,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14917#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="class#2704:3385" expanded="false" />
+            <element signature="e#0#12460#0" expanded="true" />
+            <element signature="docComment;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#3037:3718" expanded="false" />
+            <element signature="e#4171#5261#0" expanded="true" />
+            <element signature="e#4902#4979#0" expanded="false" />
+            <element signature="e#5260#5261#0" expanded="true" />
+            <element signature="e#6318#6382#0" expanded="false" />
             <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
@@ -2512,12 +2579,11 @@
             <element signature="method#onDestroy#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onOptionsItemSelected#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#updateConnectionState#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="e#10389#10539#0" expanded="true" />
+            <element signature="e#10538#10539#0" expanded="true" />
             <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickRead#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickStart#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="e#12423#12424#0" expanded="true" />
+            <element signature="e#12457#12458#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2528,27 +2594,6 @@
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/gatt_services_characteristics.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/actionbar_indeterminate_progress.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/menu/main.xml">
@@ -2571,16 +2616,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/listitem_device.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="android-dummy:///home/ideo/Документы/android/Android/BluetoothLeGatt/Application/Translations Editor" />
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -2597,17 +2632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -2619,13 +2643,69 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/gatt_services_characteristics.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="e#1257#1287#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/actionbar_indeterminate_progress.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/listitem_device.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/extern/android_sdk/sources/android-19/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5372" column="0" selection-start-line="5372" selection-start-column="0" selection-end-line="5372" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/extern/android_sdk/sources/android-19/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="1100" column="0" selection-start-line="1100" selection-start-column="0" selection-end-line="1100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/extern/android_sdk/sources/android-19/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="2385" column="0" selection-start-line="2385" selection-start-column="0" selection-end-line="2385" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+        <state relative-caret-position="360">
+          <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14821#0" expanded="true" />
-            <element signature="class#2902:4834" expanded="false" />
+            <element signature="e#0#14820#0" expanded="true" />
             <element signature="method#broadcastUpdate#0;class#BluetoothLeService#0" expanded="false" />
             <element signature="method#broadcastUpdate#1;class#BluetoothLeService#0" expanded="false" />
             <element signature="class#LocalBinder#0;class#BluetoothLeService#0" expanded="false" />
@@ -2649,14 +2729,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/extern/android_sdk/sources/android-19/android/os/MessageQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/extern/android_sdk/sources/android-19/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="e#29237#29238#0" expanded="false" />
+            <element signature="e#29275#29276#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/extern/android_sdk/sources/android-19/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/extern/android_sdk/sources/android-19/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3833" column="0" selection-start-line="3833" selection-start-column="0" selection-end-line="3833" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="258" column="66" selection-start-line="258" selection-start-column="66" selection-end-line="258" selection-end-column="66" />
+        <state relative-caret-position="2475">
+          <caret line="269" column="30" selection-start-line="269" selection-start-column="30" selection-end-line="269" selection-end-column="30" />
           <folding>
-            <element signature="e#0#14917#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="class#2704:3385" expanded="false" />
+            <element signature="e#0#12460#0" expanded="true" />
+            <element signature="docComment;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#3037:3718" expanded="false" />
+            <element signature="e#4171#5261#0" expanded="true" />
+            <element signature="e#4902#4979#0" expanded="false" />
+            <element signature="e#5260#5261#0" expanded="true" />
+            <element signature="e#6318#6382#0" expanded="false" />
             <element signature="method#clearUI#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#DeviceControlActivity#0" expanded="false" />
@@ -2664,14 +2783,24 @@
             <element signature="method#onDestroy#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#DeviceControlActivity#0" expanded="false" />
             <element signature="method#onOptionsItemSelected#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#updateConnectionState#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#displayGattServices#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="e#10389#10539#0" expanded="true" />
+            <element signature="e#10538#10539#0" expanded="true" />
             <element signature="method#makeGattUpdateIntentFilter#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickWrite#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickRead#0;class#DeviceControlActivity#0" expanded="false" />
-            <element signature="method#onClickStart#0;class#DeviceControlActivity#0" expanded="false" />
+            <element signature="e#12423#12424#0" expanded="true" />
+            <element signature="e#12457#12458#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/button_control.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>

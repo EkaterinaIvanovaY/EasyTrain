@@ -18,6 +18,7 @@ package com.example.android.bluetoothlegatt;
 
 import android.app.Activity;
 import android.app.Service;
+import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
 import android.content.BroadcastReceiver;
@@ -36,10 +37,14 @@ import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
+import java.lang.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.UUID;
+
+import static android.os.SystemClock.sleep;
 
 /**
  * For a given BLE device, this Activity provides the user interface to connect, display data,
@@ -55,6 +60,8 @@ public class DeviceControlActivity extends Activity {
 
     private TextView mConnectionState;
     private TextView mDataField;
+    private TextView textView;
+    private Vibrator vibr;
     private String mDeviceName;
     private String mDeviceAddress;
     private ExpandableListView mGattServicesList;
@@ -63,9 +70,14 @@ public class DeviceControlActivity extends Activity {
             new ArrayList<ArrayList<BluetoothGattCharacteristic>>();
     private boolean mConnected = false;
     private BluetoothGattCharacteristic mNotifyCharacteristic;
+    private BluetoothGatt mBluetoothGatt;
 
     private final String LIST_NAME = "NAME";
     private final String LIST_UUID = "UUID";
+
+    private final int STATE_START = 1;
+    private final int STATE_STOP = 0;
+    private int state = 0;
 
     // Code to manage Service lifecycle.
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -93,6 +105,7 @@ public class DeviceControlActivity extends Activity {
     // ACTION_GATT_SERVICES_DISCOVERED: discovered GATT services.
     // ACTION_DATA_AVAILABLE: received data from the device.  This can be a result of read
     //                        or notification operations.
+
     private final BroadcastReceiver mGattUpdateReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -171,9 +184,11 @@ public class DeviceControlActivity extends Activity {
     mConnectionState = (TextView) findViewById(R.id.connection_state);
     */
         mDataField = (TextView) findViewById(R.id.data_value);
+        textView = (TextView) findViewById(R.id.isright);
 
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
+        vibr = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
     }
@@ -231,6 +246,7 @@ public class DeviceControlActivity extends Activity {
     }
 
     private void updateConnectionState(final int resourceId) {
+
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -241,82 +257,29 @@ public class DeviceControlActivity extends Activity {
 
     private void displayData(String data) {
         if (data != null) {
-            TextView textView = (TextView) findViewById(R.id.isright);
-            Vibrator vibr = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-
             StringBuffer data_buf = new StringBuffer(data);
             data_buf.delete(0, 2);
             data_buf.delete(2, data_buf.length());
             int data_int = Integer.parseInt(data_buf.toString(), 16);
             String data_str = String.valueOf(data_int);
 
-            mDataField.setText(data_str);
 
             if (data_int > 45) {
+                mDataField.setText(data_str);
                 textView.setText("Good pace!");
                 vibr.cancel();
             } else {
-                vibr.vibrate(10000);        // vibration for 10sec
+                mDataField.setText(data_str);
                 textView.setText("Wrong angle!");
+                vibr.vibrate(1000);        // vibration for 1sec
+            }
+
+            if (state==STATE_START && (mBluetoothLeService != null) ) {
+
+                sleep(300);
+                mBluetoothLeService.readCustomCharacteristic();
             }
         }
-    }
-
-    // Demonstrates how to iterate through the supported GATT Services/Characteristics.
-    // In this sample, we populate the data structure that is bound to the ExpandableListView
-    // on the UI.
-    private void displayGattServices(List<BluetoothGattService> gattServices) {
-        if (gattServices == null) return;
-        String uuid = null;
-        String unknownServiceString = getResources().getString(R.string.unknown_service);
-        String unknownCharaString = getResources().getString(R.string.unknown_characteristic);
-        ArrayList<HashMap<String, String>> gattServiceData = new ArrayList<HashMap<String, String>>();
-        ArrayList<ArrayList<HashMap<String, String>>> gattCharacteristicData
-                = new ArrayList<ArrayList<HashMap<String, String>>>();
-        mGattCharacteristics = new ArrayList<ArrayList<BluetoothGattCharacteristic>>();
-
-        // Loops through available GATT Services.
-        for (BluetoothGattService gattService : gattServices) {
-            HashMap<String, String> currentServiceData = new HashMap<String, String>();
-            uuid = gattService.getUuid().toString();
-            currentServiceData.put(
-                    LIST_NAME, SampleGattAttributes.lookup(uuid, unknownServiceString));
-            currentServiceData.put(LIST_UUID, uuid);
-            gattServiceData.add(currentServiceData);
-
-            ArrayList<HashMap<String, String>> gattCharacteristicGroupData =
-                    new ArrayList<HashMap<String, String>>();
-            List<BluetoothGattCharacteristic> gattCharacteristics =
-                    gattService.getCharacteristics();
-            ArrayList<BluetoothGattCharacteristic> charas =
-                    new ArrayList<BluetoothGattCharacteristic>();
-
-            // Loops through available Characteristics.
-            for (BluetoothGattCharacteristic gattCharacteristic : gattCharacteristics) {
-                charas.add(gattCharacteristic);
-                HashMap<String, String> currentCharaData = new HashMap<String, String>();
-                uuid = gattCharacteristic.getUuid().toString();
-                currentCharaData.put(
-                        LIST_NAME, SampleGattAttributes.lookup(uuid, unknownCharaString));
-                currentCharaData.put(LIST_UUID, uuid);
-                gattCharacteristicGroupData.add(currentCharaData);
-            }
-            mGattCharacteristics.add(charas);
-            gattCharacteristicData.add(gattCharacteristicGroupData);
-        }
-
-        SimpleExpandableListAdapter gattServiceAdapter = new SimpleExpandableListAdapter(
-                this,
-                gattServiceData,
-                android.R.layout.simple_expandable_list_item_2,
-                new String[]{LIST_NAME, LIST_UUID},
-                new int[]{android.R.id.text1, android.R.id.text2},
-                gattCharacteristicData,
-                android.R.layout.simple_expandable_list_item_2,
-                new String[]{LIST_NAME, LIST_UUID},
-                new int[]{android.R.id.text1, android.R.id.text2}
-        );
-        mGattServicesList.setAdapter(gattServiceAdapter);
     }
 
     private static IntentFilter makeGattUpdateIntentFilter() {
@@ -328,12 +291,6 @@ public class DeviceControlActivity extends Activity {
         return intentFilter;
     }
 
-    public void onClickWrite(View v) {
-        if (mBluetoothLeService != null) {
-            mBluetoothLeService.writeCustomCharacteristic(0xAA);
-        }
-    }
-
     public void onClickRead(View v) {
         if (mBluetoothLeService != null) {
             mBluetoothLeService.readCustomCharacteristic();
@@ -343,7 +300,17 @@ public class DeviceControlActivity extends Activity {
 
     public void onClickStart(View v) {
         if (mBluetoothLeService != null) {
+            state = STATE_START;
+            if (state==STATE_START && (mBluetoothLeService != null) ) {
 
+                sleep(100);
+                mBluetoothLeService.readCustomCharacteristic();
+
+            }
         }
+    }
+
+    public void onClickStop(View v) {
+        state = STATE_STOP;
     }
 }
