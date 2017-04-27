@@ -34,6 +34,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
@@ -78,6 +79,7 @@ public class DeviceControlActivity extends Activity {
     private final int STATE_START = 1;
     private final int STATE_STOP = 0;
     private int state = 0;
+    public ArrayList<Integer> squats = new ArrayList();
 
     // Code to manage Service lifecycle.
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -191,6 +193,10 @@ public class DeviceControlActivity extends Activity {
         vibr = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
+
+
+
+
     }
 
     @Override
@@ -267,9 +273,11 @@ public class DeviceControlActivity extends Activity {
             if (data_int > 45) {
                 mDataField.setText(data_str);
                 textView.setText("Good pace!");
+                squats.add(data_int);
                 vibr.cancel();
             } else {
                 mDataField.setText(data_str);
+                squats.add(data_int);
                 textView.setText("Wrong angle!");
                 vibr.vibrate(1000);        // vibration for 1sec
             }
@@ -307,5 +315,21 @@ public class DeviceControlActivity extends Activity {
 
     public void onClickStop(View v) {
         state = STATE_STOP;
+    }
+
+    //Метод для перехода на новый экран
+    public void newScreen(View v) {
+        /*
+            Intent intent = new Intent(DeviceControlActivity.this, SecondActivity.class);
+            intent.putIntegerArrayListExtra("graph_intent", squats);
+            */
+        if (state == 0) {
+            Intent intObj = new Intent(this, SecondActivity.class);
+            intObj.putIntegerArrayListExtra("graph_intent", squats);
+            startActivity(intObj);
+        } else {
+            textView.setText("Press Stop");
+        }
+
     }
 }

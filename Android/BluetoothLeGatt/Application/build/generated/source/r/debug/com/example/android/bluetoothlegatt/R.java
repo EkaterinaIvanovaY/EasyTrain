@@ -561,6 +561,39 @@ containing a value of this type.
 </table>
          */
         public static final int layout_optimizationLevel=0x7f01002b;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int seriesColor=0x7f01003a;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int seriesData=0x7f010037;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int seriesTitle=0x7f010039;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int seriesType=0x7f010038;
     }
     public static final class color {
         public static final int cardview_dark_background=0x7f060000;
@@ -588,56 +621,73 @@ containing a value of this type.
         public static final int all=0x7f090005;
         public static final int basic=0x7f090006;
         public static final int button=0x7f090009;
-        public static final int button3=0x7f09000d;
+        public static final int button3=0x7f09000c;
+        public static final int buttonGraph=0x7f09000b;
         public static final int chains=0x7f090007;
-        public static final int connection_state=0x7f09000f;
-        public static final int data_value=0x7f09000b;
-        public static final int device_address=0x7f09000e;
-        public static final int device_name=0x7f090011;
-        public static final int gatt_services_list=0x7f090010;
-        public static final int isright=0x7f09000c;
-        public static final int menu_connect=0x7f090013;
-        public static final int menu_disconnect=0x7f090014;
-        public static final int menu_refresh=0x7f090012;
-        public static final int menu_scan=0x7f090015;
-        public static final int menu_stop=0x7f090016;
+        public static final int connection_state=0x7f090011;
+        public static final int data_value=0x7f09000d;
+        public static final int data_value_secScreen=0x7f090015;
+        public static final int data_value_secScreen_dev_neg=0x7f090018;
+        public static final int device_address=0x7f090010;
+        public static final int device_name=0x7f090019;
+        public static final int gatt_services_list=0x7f090012;
+        public static final int graph=0x7f090014;
+        public static final int isright=0x7f09000e;
+        public static final int menu_connect=0x7f09001b;
+        public static final int menu_disconnect=0x7f09001c;
+        public static final int menu_refresh=0x7f09001a;
+        public static final int menu_scan=0x7f09001d;
+        public static final int menu_stop=0x7f09001e;
         public static final int none=0x7f090008;
         public static final int packed=0x7f090003;
         public static final int parent=0x7f090000;
         public static final int spread=0x7f090001;
         public static final int spread_inside=0x7f090004;
+        public static final int textView=0x7f09000f;
         public static final int textView2=0x7f09000a;
+        public static final int textView3=0x7f090013;
+        public static final int textView4=0x7f090016;
+        public static final int textView6=0x7f090017;
         public static final int wrap=0x7f090002;
     }
     public static final class layout {
         public static final int actionbar_indeterminate_progress=0x7f030000;
         public static final int button_control=0x7f030001;
         public static final int gatt_services_characteristics=0x7f030002;
-        public static final int listitem_device=0x7f030003;
+        public static final int graph=0x7f030003;
+        public static final int listitem_device=0x7f030004;
     }
     public static final class menu {
         public static final int gatt_services=0x7f080000;
         public static final int main=0x7f080001;
     }
     public static final class string {
-        public static final int app_name=0x7f070000;
-        public static final int ble_not_supported=0x7f070001;
-        public static final int connected=0x7f070002;
-        public static final int disconnected=0x7f070003;
-        public static final int error_bluetooth_not_supported=0x7f070004;
-        public static final int intro_message=0x7f070005;
-        public static final int label_data=0x7f070006;
-        public static final int label_device_address=0x7f070007;
-        public static final int label_state=0x7f070008;
-        public static final int menu_connect=0x7f070009;
-        public static final int menu_disconnect=0x7f07000a;
-        public static final int menu_scan=0x7f07000b;
-        public static final int menu_stop=0x7f07000c;
-        public static final int no_data=0x7f07000d;
-        public static final int title_devices=0x7f07000e;
-        public static final int unknown_characteristic=0x7f07000f;
-        public static final int unknown_device=0x7f070010;
-        public static final int unknown_service=0x7f070011;
+        public static final int app_n=0x7f070000;
+        public static final int app_name=0x7f070001;
+        public static final int avg_Pitch=0x7f070002;
+        public static final int ble_not_supported=0x7f070003;
+        public static final int btn_text=0x7f070004;
+        public static final int connected=0x7f070005;
+        public static final int data_of_avg_pitch=0x7f070006;
+        public static final int data_of_deviation_neg=0x7f070007;
+        public static final int deviation_neg=0x7f070008;
+        public static final int disconnected=0x7f070009;
+        public static final int error_bluetooth_not_supported=0x7f07000a;
+        public static final int intro_message=0x7f07000b;
+        public static final int label_data=0x7f07000c;
+        public static final int label_device_address=0x7f07000d;
+        public static final int label_state=0x7f07000e;
+        public static final int menu_connect=0x7f07000f;
+        public static final int menu_disconnect=0x7f070010;
+        public static final int menu_scan=0x7f070011;
+        public static final int menu_stop=0x7f070012;
+        public static final int no_data=0x7f070013;
+        public static final int second_screen=0x7f070014;
+        public static final int title_activity_second=0x7f070015;
+        public static final int title_devices=0x7f070016;
+        public static final int unknown_characteristic=0x7f070017;
+        public static final int unknown_device=0x7f070018;
+        public static final int unknown_service=0x7f070019;
     }
     public static final class style {
         public static final int AppTheme=0x7f050002;
@@ -2687,6 +2737,91 @@ containing a value of this type.
           @attr name com.example.android.bluetoothlegatt:layout_goneMarginTop
         */
         public static final int ConstraintSet_layout_goneMarginTop = 63;
+        /** Attributes that can be used with a GraphViewXML.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GraphViewXML_android_title android:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #GraphViewXML_seriesColor com.example.android.bluetoothlegatt:seriesColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #GraphViewXML_seriesData com.example.android.bluetoothlegatt:seriesData}</code></td><td></td></tr>
+           <tr><td><code>{@link #GraphViewXML_seriesTitle com.example.android.bluetoothlegatt:seriesTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #GraphViewXML_seriesType com.example.android.bluetoothlegatt:seriesType}</code></td><td></td></tr>
+           </table>
+           @see #GraphViewXML_android_title
+           @see #GraphViewXML_seriesColor
+           @see #GraphViewXML_seriesData
+           @see #GraphViewXML_seriesTitle
+           @see #GraphViewXML_seriesType
+         */
+        public static final int[] GraphViewXML = {
+            0x010101e1, 0x7f010037, 0x7f010038, 0x7f010039,
+            0x7f01003a
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#title}
+          attribute's value can be found in the {@link #GraphViewXML} array.
+          @attr name android:title
+        */
+        public static final int GraphViewXML_android_title = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#seriesColor}
+          attribute's value can be found in the {@link #GraphViewXML} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.bluetoothlegatt:seriesColor
+        */
+        public static final int GraphViewXML_seriesColor = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#seriesData}
+          attribute's value can be found in the {@link #GraphViewXML} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.bluetoothlegatt:seriesData
+        */
+        public static final int GraphViewXML_seriesData = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#seriesTitle}
+          attribute's value can be found in the {@link #GraphViewXML} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.bluetoothlegatt:seriesTitle
+        */
+        public static final int GraphViewXML_seriesTitle = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.bluetoothlegatt.R.attr#seriesType}
+          attribute's value can be found in the {@link #GraphViewXML} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.bluetoothlegatt:seriesType
+        */
+        public static final int GraphViewXML_seriesType = 2;
         /** Attributes that can be used with a LinearConstraintLayout.
            <p>Includes the following attributes:</p>
            <table>

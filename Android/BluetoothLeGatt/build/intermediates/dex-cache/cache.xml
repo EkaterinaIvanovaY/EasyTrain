@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="/home/ideo/Документы/android/Android/BluetoothLeGatt/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="14b1517c3285a3bfe28cd1177b2e2ac5fe58e49a">
-        <dex dex="/home/ideo/Документы/android/Android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_47cf701173bf65da5724193ec5c30a5dcad57d4a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ideo/Документы/android/Android/BluetoothLeGatt/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/home/ideo/Документы/android/Android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_06d91e2c96b32c6a24a4399b40be48bc112c81f8/classes.dex" />
+        <dex dex="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_78416fdb749a979edadecc5a52bf7fc3d1b05a47/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ideo/.android/build-cache/4f47e87b5058f5f7d79a4583d3e2593f05a6ca72/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes_0bf540befe6853bb84d27fece5fff534f70bfecf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e5a3f24ea113918a65ebfa85f713e6e9b9a2132">
+        <dex dex="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_24da49eaf0514c531fc0681aae32c688cffc7f5b/classes.dex" />
     </item>
 
 </items>

@@ -30,6 +30,10 @@
         <activity android:name=".DeviceControlActivity"/>
         <service android:name=".VibrateService" />
         <service android:name=".BluetoothLeService" android:enabled="true"/>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
     </application>
 
 </manifest>
