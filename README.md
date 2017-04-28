@@ -1,4 +1,4 @@
-# EasyTrain
+# ETrain
 ## Проект команды EasyTrain
 
 *Текущие возможности:*
