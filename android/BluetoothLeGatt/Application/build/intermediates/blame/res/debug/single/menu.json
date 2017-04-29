@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ideo/Документы/android/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/ideo/Документы/android/BluetoothLeGatt/Application/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/ideo/Документы/android/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/menu/gatt_services.xml",
+        "source": "/home/ideo/Документы/android/BluetoothLeGatt/Application/src/main/res/menu/gatt_services.xml"
+    }
+]

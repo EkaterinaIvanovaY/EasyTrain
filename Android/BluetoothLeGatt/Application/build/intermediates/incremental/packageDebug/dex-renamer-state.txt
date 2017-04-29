@@ -1,7 +1,0 @@
-#Sat Apr 29 16:00:32 MSK 2017
-base.0=/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_65d40b24dfe6c2468dfc6b619e2b8a558d5b8b10
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_353406a610e80ccf0cb0916cfa11af8a2e2a0ae7/classes.dex
-base.1=/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_353406a610e80ccf0cb0916cfa11af8a2e2a0ae7
-file.0=/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_65d40b24dfe6c2468dfc6b619e2b8a558d5b8b10/classes.dex

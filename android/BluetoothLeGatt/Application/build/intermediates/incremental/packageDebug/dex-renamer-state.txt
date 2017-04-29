@@ -1,0 +1,7 @@
+#Sat Apr 29 21:33:18 MSK 2017
+base.0=/home/ideo/Документы/android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f158b9731f2ff8d86e81e3dca7547ceb1920686d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/ideo/Документы/android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_514279da32a63b17d45302c03397ef49d4455d80/classes.dex
+base.1=/home/ideo/Документы/android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_514279da32a63b17d45302c03397ef49d4455d80
+file.0=/home/ideo/Документы/android/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f158b9731f2ff8d86e81e3dca7547ceb1920686d/classes.dex
