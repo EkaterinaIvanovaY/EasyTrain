@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+        "outputFile": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 115
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values-v11/template-styles.xml",
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values-v11/template-styles.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,

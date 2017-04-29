@@ -109,10 +109,10 @@
     <dimen name="margin_tiny">4dp</dimen>
     <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
     <string name="app_n">New Screen</string>
-    <string name="app_name">BluetoothLeGatt</string>
+    <string name="app_name">ETrain</string>
     <string name="avg_Pitch">Your average pitch is:</string>
     <string name="ble_not_supported">BLE is not supported</string>
-    <string name="btn_text">Get graph!</string>
+    <string name="btn_text">Get graph</string>
     <string name="connected">Connected</string>
     <string name="data_of_avg_pitch">No data</string>
     <string name="data_of_deviation_neg">No data</string>
@@ -138,6 +138,7 @@
     <string name="menu_stop">Stop</string>
     <string name="no_data">No data</string>
     <string name="second_screen">The graph of your squats:</string>
+    <string name="sqtTxt">No data</string>
     <string name="title_activity_second">SecondActivity</string>
     <string name="title_devices">BLE Device Scan</string>
     <string name="unknown_characteristic">Unknown characteristic</string>

@@ -37,11 +37,12 @@
     <string name="title_activity_second">SecondActivity</string>
     <string name="app_n">New Screen</string>
 
-    <string name="btn_text">Get graph!</string>
+    <string name="btn_text">Get graph</string>
 
     <!-- Menu items -->
     <string name="menu_connect">Connect</string>
     <string name="menu_disconnect">Disconnect</string>
     <string name="menu_scan">Scan</string>
     <string name="menu_stop">Stop</string>
+    <string name="sqtTxt">No data</string>
 </resources>

@@ -624,30 +624,31 @@ containing a value of this type.
         public static final int button3=0x7f09000c;
         public static final int buttonGraph=0x7f09000b;
         public static final int chains=0x7f090007;
-        public static final int connection_state=0x7f090011;
+        public static final int connection_state=0x7f090012;
         public static final int data_value=0x7f09000d;
-        public static final int data_value_secScreen=0x7f090015;
-        public static final int data_value_secScreen_dev_neg=0x7f090018;
-        public static final int device_address=0x7f090010;
-        public static final int device_name=0x7f090019;
-        public static final int gatt_services_list=0x7f090012;
-        public static final int graph=0x7f090014;
+        public static final int data_value_secScreen=0x7f090016;
+        public static final int data_value_secScreen_dev_neg=0x7f090019;
+        public static final int device_address=0x7f090011;
+        public static final int device_name=0x7f09001a;
+        public static final int gatt_services_list=0x7f090013;
+        public static final int graph=0x7f090015;
         public static final int isright=0x7f09000e;
-        public static final int menu_connect=0x7f09001b;
-        public static final int menu_disconnect=0x7f09001c;
-        public static final int menu_refresh=0x7f09001a;
-        public static final int menu_scan=0x7f09001d;
-        public static final int menu_stop=0x7f09001e;
+        public static final int menu_connect=0x7f09001c;
+        public static final int menu_disconnect=0x7f09001d;
+        public static final int menu_refresh=0x7f09001b;
+        public static final int menu_scan=0x7f09001e;
+        public static final int menu_stop=0x7f09001f;
         public static final int none=0x7f090008;
         public static final int packed=0x7f090003;
         public static final int parent=0x7f090000;
         public static final int spread=0x7f090001;
         public static final int spread_inside=0x7f090004;
+        public static final int sqtView=0x7f090010;
         public static final int textView=0x7f09000f;
         public static final int textView2=0x7f09000a;
-        public static final int textView3=0x7f090013;
-        public static final int textView4=0x7f090016;
-        public static final int textView6=0x7f090017;
+        public static final int textView3=0x7f090014;
+        public static final int textView4=0x7f090017;
+        public static final int textView6=0x7f090018;
         public static final int wrap=0x7f090002;
     }
     public static final class layout {
@@ -683,11 +684,12 @@ containing a value of this type.
         public static final int menu_stop=0x7f070012;
         public static final int no_data=0x7f070013;
         public static final int second_screen=0x7f070014;
-        public static final int title_activity_second=0x7f070015;
-        public static final int title_devices=0x7f070016;
-        public static final int unknown_characteristic=0x7f070017;
-        public static final int unknown_device=0x7f070018;
-        public static final int unknown_service=0x7f070019;
+        public static final int sqtTxt=0x7f070015;
+        public static final int title_activity_second=0x7f070016;
+        public static final int title_devices=0x7f070017;
+        public static final int unknown_characteristic=0x7f070018;
+        public static final int unknown_device=0x7f070019;
+        public static final int unknown_service=0x7f07001a;
     }
     public static final class style {
         public static final int AppTheme=0x7f050002;

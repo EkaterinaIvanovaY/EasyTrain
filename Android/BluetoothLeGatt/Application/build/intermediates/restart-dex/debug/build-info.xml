@@ -2,13 +2,13 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="22"
-    build-mode="FULL"
+    build-mode="HOT_WARM"
     density="xhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1493311495853"
-    token="-3515297445892686450"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="1493470870811"
+    token="-2190235118472924642"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -18,88 +18,79 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="253" />
+        duration="0" />
     <task
         name="verifier"
-        duration="24" />
+        duration="0" />
 
     <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/outputs/apk/Application-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         build-mode="FULL"
-        timestamp="1493311495853"
+        timestamp="1493470037807"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/outputs/apk/Application-debug.apk"
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/outputs/apk/Application-debug.apk"
             type="SPLIT_MAIN" />
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1493470440932"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1493470831591"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/outputs/apk/Application-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1493470870811"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

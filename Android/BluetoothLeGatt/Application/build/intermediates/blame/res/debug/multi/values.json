@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,14 +11,7 @@
                     "endOffset": 102
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 51,
-                        "endOffset": 102
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -30,14 +23,7 @@
                     "endOffset": 172
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 107,
-                        "endColumn": 69,
-                        "endOffset": 172
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -50,15 +36,7 @@
                     "endOffset": 305
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 177,
-                        "endLine": 6,
-                        "endColumn": 11,
-                        "endOffset": 305
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -70,14 +48,7 @@
                     "endOffset": 373
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 310,
-                        "endColumn": 67,
-                        "endOffset": 373
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -90,15 +61,7 @@
                     "endOffset": 502
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 378,
-                        "endLine": 10,
-                        "endColumn": 11,
-                        "endOffset": 502
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -111,15 +74,7 @@
                     "endOffset": 628
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 507,
-                        "endLine": 13,
-                        "endColumn": 11,
-                        "endOffset": 628
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -131,14 +86,7 @@
                     "endOffset": 695
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 633,
-                        "endColumn": 66,
-                        "endOffset": 695
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -151,15 +99,7 @@
                     "endOffset": 818
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 700,
-                        "endLine": 17,
-                        "endColumn": 11,
-                        "endOffset": 818
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -172,15 +112,7 @@
                     "endOffset": 943
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 823,
-                        "endLine": 20,
-                        "endColumn": 11,
-                        "endOffset": 943
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -192,14 +124,7 @@
                     "endOffset": 1010
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 948,
-                        "endColumn": 66,
-                        "endOffset": 1010
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -211,14 +136,7 @@
                     "endOffset": 1075
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 1015,
-                        "endColumn": 64,
-                        "endOffset": 1075
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -230,14 +148,7 @@
                     "endOffset": 1140
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 1080,
-                        "endColumn": 64,
-                        "endOffset": 1140
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -250,15 +161,7 @@
                     "endOffset": 1280
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 1145,
-                        "endLine": 27,
-                        "endColumn": 11,
-                        "endOffset": 1280
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -270,14 +173,7 @@
                     "endOffset": 1346
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 1285,
-                        "endColumn": 65,
-                        "endOffset": 1346
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -289,14 +185,7 @@
                     "endOffset": 1412
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 1351,
-                        "endColumn": 65,
-                        "endOffset": 1412
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -308,14 +197,7 @@
                     "endOffset": 1479
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 1417,
-                        "endColumn": 66,
-                        "endOffset": 1479
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -328,15 +210,7 @@
                     "endOffset": 1689
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 1484,
-                        "endLine": 35,
-                        "endColumn": 11,
-                        "endOffset": 1689
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -348,14 +222,7 @@
                     "endOffset": 1758
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 36,
-                        "startColumn": 4,
-                        "startOffset": 1694,
-                        "endColumn": 68,
-                        "endOffset": 1758
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -367,14 +234,7 @@
                     "endOffset": 1824
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 37,
-                        "startColumn": 4,
-                        "startOffset": 1763,
-                        "endColumn": 65,
-                        "endOffset": 1824
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -387,15 +247,7 @@
                     "endOffset": 1949
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 38,
-                        "startColumn": 4,
-                        "startOffset": 1829,
-                        "endLine": 40,
-                        "endColumn": 11,
-                        "endOffset": 1949
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -408,15 +260,7 @@
                     "endOffset": 2075
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 41,
-                        "startColumn": 4,
-                        "startOffset": 1954,
-                        "endLine": 43,
-                        "endColumn": 11,
-                        "endOffset": 2075
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -428,14 +272,7 @@
                     "endOffset": 2142
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 44,
-                        "startColumn": 4,
-                        "startOffset": 2080,
-                        "endColumn": 66,
-                        "endOffset": 2142
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -448,15 +285,7 @@
                     "endOffset": 2268
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 45,
-                        "startColumn": 4,
-                        "startOffset": 2147,
-                        "endLine": 47,
-                        "endColumn": 11,
-                        "endOffset": 2268
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -469,15 +298,7 @@
                     "endOffset": 2395
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 48,
-                        "startColumn": 4,
-                        "startOffset": 2273,
-                        "endLine": 50,
-                        "endColumn": 11,
-                        "endOffset": 2395
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -490,15 +311,7 @@
                     "endOffset": 2520
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 51,
-                        "startColumn": 4,
-                        "startOffset": 2400,
-                        "endLine": 53,
-                        "endColumn": 11,
-                        "endOffset": 2520
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -511,15 +324,7 @@
                     "endOffset": 2647
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 54,
-                        "startColumn": 4,
-                        "startOffset": 2525,
-                        "endLine": 56,
-                        "endColumn": 11,
-                        "endOffset": 2647
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -531,14 +336,7 @@
                     "endOffset": 2712
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 57,
-                        "startColumn": 4,
-                        "startOffset": 2652,
-                        "endColumn": 64,
-                        "endOffset": 2712
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -551,15 +349,7 @@
                     "endOffset": 2838
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 58,
-                        "startColumn": 4,
-                        "startOffset": 2717,
-                        "endLine": 60,
-                        "endColumn": 11,
-                        "endOffset": 2838
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -572,15 +362,7 @@
                     "endOffset": 2961
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 61,
-                        "startColumn": 4,
-                        "startOffset": 2843,
-                        "endLine": 63,
-                        "endColumn": 11,
-                        "endOffset": 2961
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -592,14 +374,7 @@
                     "endOffset": 3026
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 64,
-                        "startColumn": 4,
-                        "startOffset": 2966,
-                        "endColumn": 64,
-                        "endOffset": 3026
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -612,15 +387,7 @@
                     "endOffset": 3234
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 65,
-                        "startColumn": 4,
-                        "startOffset": 3031,
-                        "endLine": 69,
-                        "endColumn": 11,
-                        "endOffset": 3234
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -632,14 +399,7 @@
                     "endOffset": 3301
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 70,
-                        "startColumn": 4,
-                        "startOffset": 3239,
-                        "endColumn": 66,
-                        "endOffset": 3301
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -652,15 +412,7 @@
                     "endOffset": 3440
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 71,
-                        "startColumn": 4,
-                        "startOffset": 3306,
-                        "endLine": 74,
-                        "endColumn": 11,
-                        "endOffset": 3440
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -672,14 +424,7 @@
                     "endOffset": 3505
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 75,
-                        "startColumn": 4,
-                        "startOffset": 3445,
-                        "endColumn": 64,
-                        "endOffset": 3505
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -691,14 +436,7 @@
                     "endOffset": 3570
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 76,
-                        "startColumn": 4,
-                        "startOffset": 3510,
-                        "endColumn": 64,
-                        "endOffset": 3570
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -710,14 +448,7 @@
                     "endOffset": 3632
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 77,
-                        "startColumn": 4,
-                        "startOffset": 3575,
-                        "endColumn": 61,
-                        "endOffset": 3632
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -729,14 +460,7 @@
                     "endOffset": 3694
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 78,
-                        "startColumn": 4,
-                        "startOffset": 3637,
-                        "endColumn": 61,
-                        "endOffset": 3694
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -748,14 +472,7 @@
                     "endOffset": 3756
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 79,
-                        "startColumn": 4,
-                        "startOffset": 3699,
-                        "endColumn": 61,
-                        "endOffset": 3756
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -767,14 +484,7 @@
                     "endOffset": 3815
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 80,
-                        "startColumn": 4,
-                        "startOffset": 3761,
-                        "endColumn": 58,
-                        "endOffset": 3815
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -786,14 +496,7 @@
                     "endOffset": 3875
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 81,
-                        "startColumn": 4,
-                        "startOffset": 3820,
-                        "endColumn": 59,
-                        "endOffset": 3875
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -805,14 +508,7 @@
                     "endOffset": 3936
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 82,
-                        "startColumn": 4,
-                        "startOffset": 3880,
-                        "endColumn": 60,
-                        "endOffset": 3936
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -824,14 +520,7 @@
                     "endOffset": 3997
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 83,
-                        "startColumn": 4,
-                        "startOffset": 3941,
-                        "endColumn": 60,
-                        "endOffset": 3997
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -843,14 +532,7 @@
                     "endOffset": 4056
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 84,
-                        "startColumn": 4,
-                        "startOffset": 4002,
-                        "endColumn": 58,
-                        "endOffset": 4056
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -863,15 +545,7 @@
                     "endOffset": 4265
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 85,
-                        "startColumn": 4,
-                        "startOffset": 4061,
-                        "endLine": 90,
-                        "endColumn": 11,
-                        "endOffset": 4265
-                    }
+                    "file": "/home/ideo/.android/build-cache/cf8ca3d6f88d50befe4f8e8151c29bc542f5f786/output/res/values/values.xml"
                 }
             },
             {
@@ -883,14 +557,7 @@
                     "endOffset": 4326
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 271,
-                        "endColumn": 60,
-                        "endOffset": 327
-                    }
+                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml"
                 }
             },
             {
@@ -902,14 +569,7 @@
                     "endOffset": 4388
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 332,
-                        "endColumn": 61,
-                        "endOffset": 389
-                    }
+                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml"
                 }
             },
             {
@@ -921,14 +581,7 @@
                     "endOffset": 4450
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 394,
-                        "endColumn": 61,
-                        "endOffset": 451
-                    }
+                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml"
                 }
             },
             {
@@ -940,14 +593,7 @@
                     "endOffset": 4514
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 456,
-                        "endColumn": 63,
-                        "endOffset": 515
-                    }
+                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml"
                 }
             },
             {
@@ -959,14 +605,7 @@
                     "endOffset": 10385
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1358,
-                        "endColumn": 58,
-                        "endOffset": 1412
-                    }
+                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml"
                 }
             },
             {
@@ -978,14 +617,7 @@
                     "endOffset": 10442
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1417,
-                        "endColumn": 56,
-                        "endOffset": 1469
-                    }
+                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml"
                 }
             },
             {
@@ -997,14 +629,7 @@
                     "endOffset": 10496
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1474,
-                        "endColumn": 53,
-                        "endOffset": 1523
-                    }
+                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml"
                 }
             },
             {
@@ -1016,14 +641,7 @@
                     "endOffset": 10566
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 959,
-                        "endColumn": 69,
-                        "endOffset": 1024
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml"
                 }
             },
             {
@@ -1035,14 +653,7 @@
                     "endOffset": 10609
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 880,
-                        "endColumn": 42,
-                        "endOffset": 918
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml"
                 }
             },
             {
@@ -1054,14 +665,7 @@
                     "endOffset": 10653
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 836,
-                        "endColumn": 43,
-                        "endOffset": 875
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml"
                 }
             },
             {
@@ -1073,14 +677,7 @@
                     "endOffset": 10698
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 791,
-                        "endColumn": 44,
-                        "endOffset": 831
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml"
                 }
             },
             {
@@ -1092,14 +689,7 @@
                     "endOffset": 10741
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 748,
-                        "endColumn": 42,
-                        "endOffset": 786
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml"
                 }
             },
             {
@@ -1111,14 +701,7 @@
                     "endOffset": 10783
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 706,
-                        "endColumn": 41,
-                        "endOffset": 743
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml"
                 }
             },
             {
@@ -1130,14 +713,7 @@
                     "endOffset": 10851
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 1029,
-                        "endColumn": 67,
-                        "endOffset": 1092
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-dimens.xml"
                 }
             },
             {
@@ -1149,14 +725,7 @@
                     "endOffset": 10896
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 37,
-                        "startColumn": 4,
-                        "startOffset": 1785,
-                        "endColumn": 44,
-                        "endOffset": 1825
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1164,17 +733,17 @@
                     "startLine": 111,
                     "startColumn": 4,
                     "startOffset": 10901,
-                    "endColumn": 52,
-                    "endOffset": 10949
+                    "endColumn": 43,
+                    "endOffset": 10940
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/base-strings.xml",
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/base-strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
                         "startOffset": 647,
-                        "endColumn": 52,
-                        "endOffset": 695
+                        "endColumn": 43,
+                        "endOffset": 686
                     }
                 }
             },
@@ -1182,56 +751,42 @@
                 "to": {
                     "startLine": 112,
                     "startColumn": 4,
-                    "startOffset": 10954,
+                    "startOffset": 10945,
                     "endColumn": 60,
-                    "endOffset": 11010
+                    "endOffset": 11001
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 1459,
-                        "endColumn": 60,
-                        "endOffset": 1515
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 113,
                     "startColumn": 4,
-                    "startOffset": 11015,
+                    "startOffset": 11006,
                     "endColumn": 66,
-                    "endOffset": 11077
+                    "endOffset": 11068
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 686,
-                        "endColumn": 66,
-                        "endOffset": 748
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 114,
                     "startColumn": 4,
-                    "startOffset": 11082,
-                    "endColumn": 47,
-                    "endOffset": 11125
+                    "startOffset": 11073,
+                    "endColumn": 46,
+                    "endOffset": 11115
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
                         "startOffset": 1831,
-                        "endColumn": 47,
-                        "endOffset": 1874
+                        "endColumn": 46,
+                        "endOffset": 1873
                     }
                 }
             },
@@ -1239,324 +794,211 @@
                 "to": {
                     "startLine": 115,
                     "startColumn": 4,
-                    "startOffset": 11130,
+                    "startOffset": 11120,
                     "endColumn": 47,
-                    "endOffset": 11173
+                    "endOffset": 11163
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 954,
-                        "endColumn": 47,
-                        "endOffset": 997
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 116,
                     "startColumn": 4,
-                    "startOffset": 11178,
+                    "startOffset": 11168,
                     "endColumn": 53,
-                    "endOffset": 11227
+                    "endOffset": 11217
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 1520,
-                        "endColumn": 53,
-                        "endOffset": 1569
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 11232,
+                    "startOffset": 11222,
                     "endColumn": 57,
-                    "endOffset": 11285
+                    "endOffset": 11275
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 35,
-                        "startColumn": 4,
-                        "startOffset": 1662,
-                        "endColumn": 57,
-                        "endOffset": 1715
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 11290,
+                    "startOffset": 11280,
                     "endColumn": 86,
-                    "endOffset": 11372
+                    "endOffset": 11362
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 34,
-                        "startColumn": 4,
-                        "startOffset": 1575,
-                        "endColumn": 86,
-                        "endOffset": 1657
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 11377,
+                    "startOffset": 11367,
                     "endColumn": 53,
-                    "endOffset": 11426
+                    "endOffset": 11416
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 1002,
-                        "endColumn": 53,
-                        "endOffset": 1051
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 11431,
+                    "startOffset": 11421,
                     "endColumn": 82,
-                    "endOffset": 11509
+                    "endOffset": 11499
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 1114,
-                        "endColumn": 82,
-                        "endOffset": 1192
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 121,
                     "startColumn": 4,
-                    "startOffset": 11514,
+                    "startOffset": 11504,
                     "endLine": 130,
                     "endColumn": 13,
-                    "endOffset": 11773
+                    "endOffset": 11763
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/base-strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 700,
-                        "endLine": 28,
-                        "endColumn": 13,
-                        "endOffset": 971
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/base-strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 11778,
+                    "startOffset": 11768,
                     "endColumn": 44,
-                    "endOffset": 11818
+                    "endOffset": 11808
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 753,
-                        "endColumn": 44,
-                        "endOffset": 793
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 132,
                     "startColumn": 4,
-                    "startOffset": 11823,
+                    "startOffset": 11813,
                     "endColumn": 64,
-                    "endOffset": 11883
+                    "endOffset": 11873
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 798,
-                        "endColumn": 64,
-                        "endOffset": 858
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 133,
                     "startColumn": 4,
-                    "startOffset": 11888,
+                    "startOffset": 11878,
                     "endColumn": 46,
-                    "endOffset": 11930
+                    "endOffset": 11920
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 863,
-                        "endColumn": 46,
-                        "endOffset": 905
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 134,
                     "startColumn": 4,
-                    "startOffset": 11935,
+                    "startOffset": 11925,
                     "endColumn": 48,
-                    "endOffset": 11979
+                    "endOffset": 11969
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 42,
-                        "startColumn": 4,
-                        "startOffset": 1904,
-                        "endColumn": 48,
-                        "endOffset": 1948
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 11984,
+                    "startOffset": 11974,
                     "endColumn": 54,
-                    "endOffset": 12034
+                    "endOffset": 12024
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 43,
-                        "startColumn": 4,
-                        "startOffset": 1953,
-                        "endColumn": 54,
-                        "endOffset": 2003
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 12039,
+                    "startOffset": 12029,
                     "endColumn": 42,
-                    "endOffset": 12077
+                    "endOffset": 12067
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 44,
-                        "startColumn": 4,
-                        "startOffset": 2008,
-                        "endColumn": 42,
-                        "endOffset": 2046
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 12082,
+                    "startOffset": 12072,
                     "endColumn": 42,
-                    "endOffset": 12120
+                    "endOffset": 12110
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 45,
-                        "startColumn": 4,
-                        "startOffset": 2051,
-                        "endColumn": 42,
-                        "endOffset": 2089
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 12125,
+                    "startOffset": 12115,
                     "endColumn": 43,
-                    "endOffset": 12164
+                    "endOffset": 12154
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 910,
-                        "endColumn": 43,
-                        "endOffset": 949
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 12169,
+                    "startOffset": 12159,
                     "endColumn": 67,
-                    "endOffset": 12232
+                    "endOffset": 12222
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 1391,
-                        "endColumn": 67,
-                        "endOffset": 1454
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 12237,
-                    "endColumn": 64,
-                    "endOffset": 12297
+                    "startOffset": 12227,
+                    "endColumn": 42,
+                    "endOffset": 12265
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 36,
+                        "startLine": 46,
                         "startColumn": 4,
-                        "startOffset": 1720,
-                        "endColumn": 64,
-                        "endOffset": 1780
+                        "startOffset": 2093,
+                        "endColumn": 42,
+                        "endOffset": 2131
                     }
                 }
             },
@@ -1564,257 +1006,173 @@
                 "to": {
                     "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 12302,
-                    "endColumn": 57,
-                    "endOffset": 12355
+                    "startOffset": 12270,
+                    "endColumn": 64,
+                    "endOffset": 12330
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 1056,
-                        "endColumn": 57,
-                        "endOffset": 1109
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 12360,
-                    "endColumn": 73,
-                    "endOffset": 12429
+                    "startOffset": 12335,
+                    "endColumn": 57,
+                    "endOffset": 12388
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 1256,
-                        "endColumn": 73,
-                        "endOffset": 1325
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 12434,
-                    "endColumn": 57,
-                    "endOffset": 12487
+                    "startOffset": 12393,
+                    "endColumn": 73,
+                    "endOffset": 12462
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 1198,
-                        "endColumn": 57,
-                        "endOffset": 1251
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 12492,
-                    "endColumn": 59,
-                    "endOffset": 12547
+                    "startOffset": 12467,
+                    "endColumn": 57,
+                    "endOffset": 12520
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 1330,
-                        "endColumn": 59,
-                        "endOffset": 1385
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 145,
                     "startColumn": 4,
-                    "startOffset": 12552,
-                    "endColumn": 50,
-                    "endOffset": 12598
+                    "startOffset": 12525,
+                    "endColumn": 59,
+                    "endOffset": 12580
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 768,
-                        "endColumn": 51,
-                        "endOffset": 815
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 146,
                     "startColumn": 4,
-                    "startOffset": 12603,
-                    "endLine": 153,
-                    "endColumn": 12,
-                    "endOffset": 13064
+                    "startOffset": 12585,
+                    "endColumn": 50,
+                    "endOffset": 12631
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1744,
-                        "endLine": 23,
-                        "endColumn": 12,
-                        "endOffset": 2205
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 154,
+                    "startLine": 147,
                     "startColumn": 4,
-                    "startOffset": 13069,
-                    "endLine": 156,
+                    "startOffset": 12636,
+                    "endLine": 154,
                     "endColumn": 12,
-                    "endOffset": 13190
+                    "endOffset": 13097
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 2210,
-                        "endLine": 26,
-                        "endColumn": 12,
-                        "endOffset": 2331
-                    }
+                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 157,
+                    "startLine": 155,
                     "startColumn": 4,
-                    "startOffset": 13195,
-                    "endLine": 159,
+                    "startOffset": 13102,
+                    "endLine": 157,
                     "endColumn": 12,
-                    "endOffset": 13318
+                    "endOffset": 13223
                 },
                 "from": {
-                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 2336,
-                        "endLine": 29,
-                        "endColumn": 12,
-                        "endOffset": 2459
-                    }
+                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 160,
+                    "startLine": 158,
                     "startColumn": 4,
-                    "startOffset": 13323,
-                    "endColumn": 59,
-                    "endOffset": 13378
+                    "startOffset": 13228,
+                    "endLine": 160,
+                    "endColumn": 12,
+                    "endOffset": 13351
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 651,
-                        "endColumn": 60,
-                        "endOffset": 707
-                    }
+                    "file": "/home/ideo/.android/build-cache/d93270a50726a21e56722a21c280420779a296c6/output/res/values/values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 161,
                     "startColumn": 4,
-                    "startOffset": 13383,
-                    "endColumn": 52,
-                    "endOffset": 13431
+                    "startOffset": 13356,
+                    "endColumn": 59,
+                    "endOffset": 13411
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 713,
-                        "endColumn": 53,
-                        "endOffset": 762
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 162,
                     "startColumn": 4,
-                    "startOffset": 13436,
-                    "endColumn": 26,
-                    "endOffset": 13458
+                    "startOffset": 13416,
+                    "endColumn": 52,
+                    "endOffset": 13464
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 849,
-                        "endColumn": 27,
-                        "endOffset": 872
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 163,
                     "startColumn": 4,
-                    "startOffset": 13463,
-                    "endLine": 166,
-                    "endColumn": 12,
-                    "endOffset": 13654
+                    "startOffset": 13469,
+                    "endColumn": 26,
+                    "endOffset": 13491
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 878,
-                        "endLine": 32,
-                        "endColumn": 12,
-                        "endOffset": 1069
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 167,
+                    "startLine": 164,
                     "startColumn": 4,
-                    "startOffset": 13659,
-                    "endLine": 172,
+                    "startOffset": 13496,
+                    "endLine": 167,
                     "endColumn": 12,
-                    "endOffset": 13932
+                    "endOffset": 13687
                 },
                 "from": {
-                    "file": "/home/ideo/Документы/android/Вика/EasyTrain27.04/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml",
-                    "position": {
-                        "startLine": 34,
-                        "startColumn": 4,
-                        "startOffset": 1075,
-                        "endLine": 39,
-                        "endColumn": 12,
-                        "endOffset": 1348
-                    }
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 13692,
+                    "endLine": 173,
+                    "endColumn": 12,
+                    "endOffset": 13965
+                },
+                "from": {
+                    "file": "/home/ideo/Документы/github/EasyTrain/Android/BluetoothLeGatt/Application/src/main/res/values/template-styles.xml"
                 }
             }
         ]
