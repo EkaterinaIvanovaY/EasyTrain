@@ -85,7 +85,6 @@ static void data_processing(unsigned char data_new) {
     squats++;
     squat_char.setValue(squats);
   }
-
 }
 
 void BLE_connectedBLE_IRQ(BLEDevice central) {
@@ -111,17 +110,22 @@ void BLE_DisconnectedBLE_IRQ(BLEDevice central) {
 }
 
 void IMUHandler_IRQ() {
-  if ( switch_char.value() ) {
+  
+ // if ( switch_char.value() ) {
     data = exchange_data();
-    if ( data < 45 ) digitalWrite(12, HIGH);
-    else digitalWrite(12, LOW);
+    
+    if ( data < 45 ) 
+      { digitalWrite(12, HIGH); }
+    else 
+      { digitalWrite(12, LOW); }
     count++;
+    
     if ( count > 10 ) {
       data_processing(data);
       BLE.poll();
     }
     CurieTimerOne.restart(TIME_US);
-  }
+//  }
 }
 
 
@@ -129,8 +133,6 @@ void setup() {
 
   pinMode(12, OUTPUT);
   pinMode(13, OUTPUT);
-  digitalWrite(12, LOW);
-  digitalWrite(13, LOW);
 
   CurieIMU.begin();
   CurieIMU.setGyroRate(200);
