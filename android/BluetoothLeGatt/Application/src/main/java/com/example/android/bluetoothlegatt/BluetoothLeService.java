@@ -33,7 +33,7 @@ public class BluetoothLeService extends Service {
     private BluetoothManager mBluetoothManager;
     private BluetoothAdapter mBluetoothAdapter;
     private String mBluetoothDeviceAddress;
-    private BluetoothGatt mBluetoothGatt;
+    private BluetoothGatt mBLEGatt;
     private int mConnectionState = STATE_DISCONNECTED;
 
     private static final int STATE_DISCONNECTED =   0;
@@ -93,8 +93,8 @@ public class BluetoothLeService extends Service {
         }
 
         if (mBluetoothDeviceAddress != null && address.equals(mBluetoothDeviceAddress)
-                && mBluetoothGatt != null) {
-            if (mBluetoothGatt.connect()) {
+                && mBLEGatt != null) {
+            if (mBLEGatt.connect()) {
                 mConnectionState = STATE_CONNECTING;
                 return true;
             } else {
@@ -107,26 +107,26 @@ public class BluetoothLeService extends Service {
             return false;
         }
 
-        mBluetoothGatt = device.connectGatt(this, false, mGattCallback);
+        mBLEGatt = device.connectGatt(this, false, mGattCallback);
         mBluetoothDeviceAddress = address;
         mConnectionState = STATE_CONNECTING;
         return true;
     }
 
     public void disconnect() {
-        if (mBluetoothAdapter == null || mBluetoothGatt == null) {
+        if (mBluetoothAdapter == null || mBLEGatt == null) {
             Log.w(TAG, "BluetoothAdapter not initialized");
             return;
         }
-        mBluetoothGatt.disconnect();
+        mBLEGatt.disconnect();
     }
 
     public void close() {
-        if (mBluetoothGatt == null) {
+        if (mBLEGatt == null) {
             return;
         }
-        mBluetoothGatt.close();
-        mBluetoothGatt = null;
+        mBLEGatt.close();
+        mBLEGatt = null;
     }
 
     private final BluetoothGattCallback mGattCallback = new BluetoothGattCallback() {
@@ -138,7 +138,7 @@ public class BluetoothLeService extends Service {
                 mConnectionState = STATE_CONNECTED;
                 broadcastUpdate(intentAction);
                 Log.i(TAG, "Attempting to start service discovery:" +
-                        mBluetoothGatt.discoverServices());
+                        mBLEGatt.discoverServices());
 
             } else if (newState == BluetoothProfile.STATE_DISCONNECTED) {
                 intentAction = ACTION_GATT_DISCONNECTED;
@@ -152,8 +152,6 @@ public class BluetoothLeService extends Service {
         public void onServicesDiscovered(BluetoothGatt gatt, int status) {
             if (status == BluetoothGatt.GATT_SUCCESS) {
                 broadcastUpdate(ACTION_GATT_SERVICES_DISCOVERED);
-            } else {
-                Log.w(TAG, "onServicesDiscovered received: " + status);
             }
         }
 
@@ -193,41 +191,70 @@ public class BluetoothLeService extends Service {
         sendBroadcast(intent);
     }
 
-    public void readCustomCharacteristic() {
-        if (mBluetoothAdapter == null || mBluetoothGatt == null) {
-            Log.w(TAG, "BluetoothAdapter not initialized");
+    public void readANGLE() {
+        if (mBluetoothAdapter == null || mBLEGatt == null) {
             return;
         }
         /*check if the service is available on the device*/
-        BluetoothGattService mCustomService = mBluetoothGatt.getService(UUID.fromString(ETRAIN_SERVICE));
+        BluetoothGattService mCustomService = mBLEGatt.getService(UUID.fromString(ETRAIN_SERVICE));
         if(mCustomService == null){
-            Log.w(TAG, "Custom BLE Service not found");
-            return;
+           return;
         }
         /*get the read characteristic from the service*/
         BluetoothGattCharacteristic mReadCharacteristic = mCustomService.getCharacteristic(UUID.fromString(ANGLE_CHAR));
-        if(mBluetoothGatt.readCharacteristic(mReadCharacteristic) == false){
-            Log.w(TAG, "Failed to write characteristic");
-        }
+        mBLEGatt.readCharacteristic(mReadCharacteristic);
 
     }
 
-    public void writeCustomCharacteristic(int value) {
-        if (mBluetoothAdapter == null || mBluetoothGatt == null) {
-            Log.w(TAG, "BluetoothAdapter not initialized");
+    public void readSQUAT() {
+        if (mBluetoothAdapter == null || mBLEGatt == null) {
             return;
         }
         /*check if the service is available on the device*/
-        BluetoothGattService mCustomService = mBluetoothGatt.getService(UUID.fromString(ETRAIN_SERVICE));
+        BluetoothGattService mCustomService = mBLEGatt.getService(UUID.fromString(ETRAIN_SERVICE));
         if(mCustomService == null){
-            Log.w(TAG, "Custom BLE Service not found");
             return;
         }
         /*get the read characteristic from the service*/
+        BluetoothGattCharacteristic mReadCharacteristic = mCustomService.getCharacteristic(UUID.fromString(SQUAT_CHAR));
+        mBLEGatt.readCharacteristic(mReadCharacteristic);
+
+    }
+
+    public void readERRORS() {
+        if (mBluetoothAdapter == null || mBLEGatt == null) {
+            return;
+        }
+        /*check if the service is available on the device*/
+        BluetoothGattService mCustomService = mBLEGatt.getService(UUID.fromString(ETRAIN_SERVICE));
+        if(mCustomService == null){
+            return;
+        }
+        /*get the read characteristic from the service*/
+        BluetoothGattCharacteristic mReadCharacteristic = mCustomService.getCharacteristic(UUID.fromString(ERROR_CHAR));
+        mBLEGatt.readCharacteristic(mReadCharacteristic);
+
+    }
+
+    /*
+    Вторая стадия:
+    После нажатия кнопки здесь происходит запись числа в память девайса
+    класса BluetoothGatt методом writeCharacteristic...
+
+    Вопрос: Что делается дальше при выполнении этого метода в сервисе?
+     */
+    public void writeCustomCharacteristic(int value) {
+        if (mBluetoothAdapter == null || mBLEGatt == null) {
+            return;
+        }
+
+        BluetoothGattService mCustomService = mBLEGatt.getService(UUID.fromString(ETRAIN_SERVICE));
+        if(mCustomService == null){
+           return;
+        }
+
         BluetoothGattCharacteristic mWriteCharacteristic = mCustomService.getCharacteristic(UUID.fromString(SWITCH_CHAR));
         mWriteCharacteristic.setValue(value,android.bluetooth.BluetoothGattCharacteristic.FORMAT_UINT8,0);
-        if(mBluetoothGatt.writeCharacteristic(mWriteCharacteristic) == false){
-            Log.w(TAG, "Failed to write characteristic");
-        }
+        mBLEGatt.writeCharacteristic(mWriteCharacteristic);
     }
 }

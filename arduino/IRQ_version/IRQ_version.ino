@@ -14,16 +14,15 @@
 
 bool connectedBLE = false;
 unsigned char data = 0;
-unsigned char count = 0;
+int count = 0;
 int aix, aiy, aiz;
 int gix, giy, giz;
 float ax, ay, az;
 float gx, gy, gz;
 float pitch;
-int squats, errors = 0;
-bool state, state_error = false;
+int squat, errors = 0;
+bool state, error_state = false;
 
-BLEPeripheral blePeripheral;
 BLEService eService(SERVICE_UUID);
 
 BLEUnsignedCharCharacteristic angle_char(ANGLE_UUID, BLERead);
@@ -35,7 +34,7 @@ Madgwick filter;
 
 
 static unsigned char exchange_data(void) {
-
+  
   CurieIMU.readMotionSensor(aix, aiy, aiz, gix, giy, giz);
 
   ax = convertRawAcceleration(aix);
@@ -48,8 +47,9 @@ static unsigned char exchange_data(void) {
   filter.updateIMU(gx, gy, gz, ax, ay, az);
   pitch = filter.getPitch();
 
-  int pitch_int = static_cast<int>(pitch);
-  unsigned char pitch_char = static_cast<unsigned char>(abs(pitch_int));
+  unsigned char pitch_char = static_cast<unsigned char>(abs(pitch));
+  
+  angle_char.setValue(pitch_char);
   return pitch_char;
 }
 
@@ -65,74 +65,63 @@ static float convertRawGyro(int gRaw) {
   return g;
 }
 
-static void data_processing(unsigned char data_new) {
-
-  count = 0;
-  angle_char.setValue(data_new);
-
-  if ( data_new < 50 ) {
-    state = true;
-    if ( (data_new < 45) and (state_error == FALSE) ) {
+static void data_processing(unsigned char data) {
+  if ( data < 50 ) {
+    state = TRUE;
+    if ( (data < 45) and (error_state == false)) {
       errors++;
+      error_state = true;
       error_char.setValue(errors);
-      state_error = true;
     }
   }
-  else state_error = false;
-
-  if ( (data_new > 70) and ( state == TRUE) ) {
-    state = false;
-    squats++;
-    squat_char.setValue(squats);
+  else {
+      error_state = false;
+    }
+  if ( (data > 70) and ( state == true) ) {
+    state = FALSE;
+    squat++;
+    squat_char.setValue(squat);
   }
+
 }
 
 void BLE_connectedBLE_IRQ(BLEDevice central) {
-
   digitalWrite(13, HIGH);
-
-  squats = 0;
-  errors = 0;
-  state = FALSE;
-  angle_char.setValue(0);
-  error_char.setValue(0);
-  squat_char.setValue(0);
-  switch_char.setValue(0);
-
   CurieTimerOne.start(TIME_US, &IMUHandler_IRQ);
   connectedBLE = true;
 }
 
 void BLE_DisconnectedBLE_IRQ(BLEDevice central) {
   digitalWrite(13, LOW);
+  digitalWrite(12, LOW);
   CurieTimerOne.kill();
   connectedBLE = false;
 }
 
 void IMUHandler_IRQ() {
-  
- // if ( switch_char.value() ) {
-    data = exchange_data();
-    
-    if ( data < 45 ) 
-      { digitalWrite(12, HIGH); }
-    else 
-      { digitalWrite(12, LOW); }
+  data = exchange_data();
+  if ( switch_char.value() ) {
+    if ( data < 45 ) {
+      digitalWrite(12, HIGH);
+    }
+    else {
+      digitalWrite(12, LOW);
+    }
     count++;
-    
-    if ( count > 10 ) {
+    if ( count > 10 ) {   
+      count = 0;
       data_processing(data);
       BLE.poll();
     }
-    CurieTimerOne.restart(TIME_US);
-//  }
+  }
 }
 
 
 void setup() {
-
   pinMode(12, OUTPUT);
   pinMode(13, OUTPUT);
+  digitalWrite(12, LOW);
+  digitalWrite(13, LOW);
 
   CurieIMU.begin();
   CurieIMU.setGyroRate(200);
@@ -141,11 +130,10 @@ void setup() {
   CurieIMU.setGyroRange(250);
 
   filter.begin(200);
-
-
+  
   BLE.begin();
 
-  BLE.setLocalName("eTrain");
+  BLE.setLocalName("ETrain");
   BLE.setAdvertisedService(eService);
 
   eService.addCharacteristic(angle_char);
@@ -162,17 +150,13 @@ void setup() {
 
   BLE.setEventHandler(BLEConnected, BLE_connectedBLE_IRQ);
   BLE.setEventHandler(BLEDisconnected, BLE_DisconnectedBLE_IRQ);
-
 }
 
-void loop() {
-
-}
+void loop() { }
 
 
 /* Текущие проблемы:
-   1. Происходит накопление данных
-      при подключении BLE, что неправильно.
-      Данные должны отправляться при нажатии на START
+   1. Данные идут с задержкой!!
+      Порядка 5 секунд
 */
 

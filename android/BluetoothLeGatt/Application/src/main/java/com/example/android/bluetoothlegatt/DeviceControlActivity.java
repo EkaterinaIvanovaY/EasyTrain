@@ -19,6 +19,7 @@ import java.lang.*;
 
 import java.util.ArrayList;
 
+import static android.os.SystemClock.sleep;
 import static com.example.android.bluetoothlegatt.BluetoothLeService.EXTRA_DATA;
 
 public class DeviceControlActivity extends Activity {
@@ -32,25 +33,26 @@ public class DeviceControlActivity extends Activity {
     private Vibrator vibr;
     private String mDeviceName;
     private String mDeviceAddress;
-    private BluetoothLeService mBluetoothLeService;
+    private BluetoothLeService mBLEService;
     private boolean mConnected = false;
     private final int STATE_START = 1;
     private final int STATE_STOP = 0;
     private int state = 0;
     public ArrayList<Integer> squats = new ArrayList();
+    private boolean switchTxt = false;
 
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName componentName, IBinder service) {
-            mBluetoothLeService = ((BluetoothLeService.LocalBinder) service).getService();
-            if (!mBluetoothLeService.initialize()) {
+            mBLEService = ((BluetoothLeService.LocalBinder) service).getService();
+            if (!mBLEService.initialize()) {
                 finish();
             }
-            mBluetoothLeService.connect(mDeviceAddress);
+            mBLEService.connect(mDeviceAddress);
         }
         @Override
         public void onServiceDisconnected(ComponentName componentName) {
-            mBluetoothLeService = null;
+            mBLEService = null;
         }
     };
 
@@ -64,7 +66,7 @@ public class DeviceControlActivity extends Activity {
         mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
         mDataField = (TextView) findViewById(R.id.data_value);
         isright = (TextView) findViewById(R.id.isright);
-        sqtView = (TextView) findViewById(R.id.isright);
+        sqtView = (TextView) findViewById(R.id.sqtView);
 
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -77,8 +79,8 @@ public class DeviceControlActivity extends Activity {
     protected void onResume() {
         super.onResume();
         registerReceiver(mGattUpdateReceiver, makeGattUpdateIntentFilter());
-        if (mBluetoothLeService != null) {
-            final boolean result = mBluetoothLeService.connect(mDeviceAddress);
+        if (mBLEService != null) {
+            final boolean result = mBLEService.connect(mDeviceAddress);
         }
     }
 
@@ -92,7 +94,7 @@ public class DeviceControlActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         unbindService(mServiceConnection);
-        mBluetoothLeService = null;
+        mBLEService = null;
     }
 
     @Override
@@ -112,10 +114,10 @@ public class DeviceControlActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_connect:
-                mBluetoothLeService.connect(mDeviceAddress);
+                mBLEService.connect(mDeviceAddress);
                 return true;
             case R.id.menu_disconnect:
-                mBluetoothLeService.disconnect();
+                mBLEService.disconnect();
                 return true;
             case android.R.id.home:
                 onBackPressed();
@@ -134,18 +136,32 @@ public class DeviceControlActivity extends Activity {
     }
 
     // ACTION_DATA_AVAILABLE: received data from the device.  This can be a result of read
-    private final BroadcastReceiver mGattUpdateReceiver = new BroadcastReceiver() {
+
+    /*
+      Третья стадия:
+    * В activity создали сервис-> Сервис отправляет данные, обрабатывает их-> Отсылает данные в broadcast receiver
+    * mGattUpdateReceiver принимает на себя intent
+    * при направлении команды sendbroadcast()
+    * метода broadcastUpdate класса BluetoothLeService
+    * */
+
+    private final BroadcastReceiver
+            mGattUpdateReceiver = new BroadcastReceiver() {
+
         @Override
         public void onReceive(Context context, Intent intent) {
+
             final String action = intent.getAction();
             if (action.equals(BluetoothLeService.ACTION_GATT_CONNECTED)) {
                 mConnected = true;
                 invalidateOptionsMenu();
-            } else if (action.equals(BluetoothLeService.ACTION_GATT_DISCONNECTED)) {
+            }
+            else if (action.equals(BluetoothLeService.ACTION_GATT_DISCONNECTED)) {
                 mConnected = false;
                 invalidateOptionsMenu();
                 mDataField.setText(R.string.no_data);
-            } else if (action.equals(BluetoothLeService.ACTION_DATA_AVAILABLE)) {
+            }
+            else if (action.equals(BluetoothLeService.ACTION_DATA_AVAILABLE)) {
                 displayData(intent.getStringExtra(EXTRA_DATA));
             }
         }
@@ -163,36 +179,51 @@ public class DeviceControlActivity extends Activity {
             String uuid_str = new String(data_uuid);
 
             if (uuid_str.equals(BluetoothLeService.ANGLE_CHAR)) {
+                squats.add(data_int);
                 if (data_int > 45) {
                     mDataField.setText(data_value);
                     isright.setText("Good pace!");
-                    squats.add(data_int);
                     vibr.cancel();
                 } else {
                     mDataField.setText(data_value);
-                    squats.add(data_int);
                     isright.setText("Wrong angle!");
-                    vibr.vibrate(100);        // vibration for 100 ms
+                    vibr.vibrate(50);
+                }
+            }  else if (uuid_str.equals(BluetoothLeService.SQUAT_CHAR)) {
+                sqtView.setText(data_value);
+            }
+
+            if (state == STATE_START && (mBLEService != null)) {
+                if ( switchTxt ) {
+                    switchTxt = false;
+                    mBLEService.readSQUAT();
+                } else {
+                    switchTxt = true;
+                    mBLEService.readANGLE();
                 }
 
-                if (state == STATE_START && (mBluetoothLeService != null)) {
-                    mBluetoothLeService.readCustomCharacteristic();
-                }
-            }
-            if (uuid_str.equals(BluetoothLeService.SQUAT_CHAR)) {
-                isright.setText(data_value);
             }
         }
     }
 
     public void onClickStart(View v) {
-        if (mBluetoothLeService != null) {
+        if (mBLEService != null) {
+
+            /*
+            Надо было всего-то поставить задержку на writeCharacteristic()
+            потому что BLE не успеевал обработать запрос
+            sleep for 5s for autocalibrate at initial point
+             */
+            sleep(7000);
+            mBLEService.writeCustomCharacteristic(1);
+            sleep(200);
             state = STATE_START;
-            mBluetoothLeService.readCustomCharacteristic();
+            mBLEService.readANGLE();
         }
     }
 
     public void onClickStop(View v) {
+        mBLEService.writeCustomCharacteristic(0);
         state = STATE_STOP;
     }
 
